@@ -1,0 +1,45 @@
+package hierachical;
+
+public class shape {
+	int length;
+	int height;
+	int width;
+	shape(int length, int height, int width){
+		shape(){
+		
+		this.length = length;
+		this.height = height;
+		this.width = width;
+		
+	}
+}
+	
+class rectangle extends shape{
+	rectangle(){}
+
+		public void calculate(int l, int w) {
+			int area;
+			area = (l * w);
+			System.out.println("Area of Rectangle =" + area);
+		}
+	}
+class square extends shape{
+	square(){}
+	public void square(int l) {
+		int area = (l * l);
+		System.out.println("Area of square =" + area);
+		
+		
+	}
+	
+}
+	class Test{
+		
+	public static void main(String[] args) {
+		square s = new square();
+		s.square(10);
+		s.calculate (6 ,8);
+
+		}
+	}
+

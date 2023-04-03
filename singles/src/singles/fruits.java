@@ -1,0 +1,14 @@
+package singles;
+
+public class fruits {
+	String name;
+	int price;
+	fruits(String name, int price){
+		this.name = name;
+		this.price = price;
+	}
+	void display(){
+		 System.out.println("You can buy" + " " + this.name + " " + " at ksh" +" " +  this.price);
+	}
+
+}

@@ -1,0 +1,31 @@
+package superMethod;
+class Animal{
+	void eat() {
+		System.out.println("eating");
+	}
+}
+class Dog extends Animal{
+	void eat(){
+		System.out.println("eating bread");
+	}
+	void swim() {
+		System.out.println("barking");
+	}
+	void work() {
+		System.out.println("working");
+	}
+	super.eat();
+	swim();
+	
+	}
+}
+
+public class TestSuper2 {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.work();
+
+	}
+
+}

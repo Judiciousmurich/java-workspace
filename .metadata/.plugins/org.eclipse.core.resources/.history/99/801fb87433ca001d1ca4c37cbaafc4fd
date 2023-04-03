@@ -1,0 +1,21 @@
+package hierachical;
+
+public class shape {
+	int length;
+	int height;
+	int width;
+	shape(int length, int height, int width){
+		
+		this.length = length;
+		this.height = height;
+		this.width = width;
+	}
+	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

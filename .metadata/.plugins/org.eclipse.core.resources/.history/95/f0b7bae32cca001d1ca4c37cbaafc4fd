@@ -1,0 +1,21 @@
+package inheritance;
+
+public class number {
+	static int i = 10;
+	number (){
+		System.out.println("value of i in Base class is: + i");
+	}
+
+}
+class calculate extends number{
+	calculate(){
+		super();
+		System.out.println("vaalue of i in child class is:" + i);
+	}
+	
+}
+class test {
+	public static void main(String[]args) {
+		calculate k = new calculate();
+	}
+}

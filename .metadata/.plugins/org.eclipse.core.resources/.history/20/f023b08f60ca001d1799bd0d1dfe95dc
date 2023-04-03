@@ -1,0 +1,10 @@
+package singles;
+
+public class singleInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
