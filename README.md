@@ -31,3 +31,18 @@ superKeyword	Focused on the super keyword, used to access parent class members.
 superMethod	Demonstrates how to call parent class methods using super.methodName().
 
 testInterface	Example of Java interfaces, showcasing abstraction and multiple inheritance capabilities.
+
+# 📌 Topics Covered
+Object-Oriented Programming (OOP)
+
+Inheritance (Single, Hierarchical, Multiple)
+
+Method Overloading & Overriding
+
+Polymorphism
+
+super and this Keywords
+
+Constructor Concepts
+
+Interfaces in Java
