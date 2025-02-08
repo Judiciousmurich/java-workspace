@@ -3,6 +3,7 @@ This repository contains various Java programs and examples focused on object-or
 
 ## Folder Name	Description
 addingNumbers	Program for performing arithmetic operations in Java.
+
 hierarchical	Example of hierarchical inheritance, where multiple classes inherit from a common parent class.
 inheritance	General examples of inheritance in Java.
 inheritancesingle	Demonstration of single inheritance, where one class inherits from another.
